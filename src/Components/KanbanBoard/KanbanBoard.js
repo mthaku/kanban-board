@@ -120,8 +120,6 @@ const KanbanBoard = () => {
     }
   };
 
-  // Normally you would want to split things out into separate components.
-  // But in this example everything is just done in one place for simplicity
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <DroppableList
@@ -157,4 +155,3 @@ const KanbanBoard = () => {
 };
 
 export default KanbanBoard;
-// Put the things into the DOM!
