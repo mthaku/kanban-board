@@ -1,0 +1,75 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.card-header,
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: grey;
+  align-items: center;
+}
+
+.card-priority {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+.card-priority .priority-tag {
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 5px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.card-priority .card-id,
+.card-header .card-created {
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: grey;
+}
+
+.card-header .card-created {
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 14px;
+}
+.card-summary,
+.card-tags {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.card-count {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+
+.comment-icon {
+  padding: 5px;
+}
+
+.user-thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.card-tags {
+    color: rgb(28, 178, 238);
+    font-size: 18px;
+}
