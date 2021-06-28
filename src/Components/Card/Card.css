@@ -44,6 +44,7 @@
   font-weight: 400;
   font-size: 14px;
 }
+
 .card-summary,
 .card-tags {
   font-size: 20px;
@@ -72,4 +73,10 @@
 .card-tags {
     color: rgb(28, 178, 238);
     font-size: 18px;
+}
+
+@media all and (max-width: 768px) {
+  .card-container {
+    width: 300px;
+  }
 }
